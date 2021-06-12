@@ -36,8 +36,7 @@ jobs:
 
       - name: Build with Maven
         run: >
-          ./mvnw compiler:compile
-          ./mvnw package
+          ./mvnw clean install
 
       - name: Heroku Deploy
         uses: akhileshns/heroku-deploy@v3.12.12
