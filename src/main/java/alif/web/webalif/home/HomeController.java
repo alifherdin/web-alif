@@ -1,4 +1,4 @@
-package alif.web.webalif;
+package alif.web.webalif.home;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.stereotype.Controller;
