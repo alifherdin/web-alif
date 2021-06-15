@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <header th:fragment="navbar-css">
+    <link th:href="@{/home/styles-navbar.css}" rel="stylesheet" />
+  </header>
+  
+</head>
+
+
+<div th:fragment="navbar" class="navbar">
+  <div class="logoproj">
+    <a href="/"><img th:src="@{home/images/your-logo.png}"/></a>
+  </div>
+  <div class="navlinks">
+    <ul>
+      <a href="/"><li>HOME</li></a>
+      <a href=""><li>PROFILE</li></a>
+      <!-- <a href="/matkul"><li>MATA KULIAH</li></a>
+      <a href="/matkul_list"><li>DAFTAR MATA KULIAH</li></a> -->
+    </ul>
+    <a href="http://www.instagram.com/al.dinnn"><img th:src="@{home/images/ig.png}"/></a>
+    <a href="https://web.facebook.com/profile.php?id=100040682921054"><img th:src="@{home/images/fb.png}"/></a>
+    <a href="https://www.linkedin.com/in/alif-herdin-13558a195"><img th:src="@{home/images/lin_bar.png}"/></a>
+  </div>
+</div>

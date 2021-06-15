@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
+    display: flex;
+    padding: 10px 70px;
+}
+
+.logoproj img{
+    width: 120px;
+    padding-top: 5%;
+}
+
+.navlinks {
+    flex: 1;
+}
+
+.navlinks ul {
+    margin-left: 50px;
+    display: inline;
+}
+
+.navlinks img {
+    width: 25px;
+    float: right;
+    padding: 20px 15px;
+}
+
+.navlinks ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 25px;
+
+}
+
+.navlinks ul a {
+    font-family: 'Overpass', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navlinks ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: .3s;
+}
+
+.navlinks ul li:hover::after {
+    width: 100%;
+}
